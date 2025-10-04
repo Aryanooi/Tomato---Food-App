@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useContext } from 'react'
 import { StoreContext } from '../context/StoreContext';
-import './PlaceOrder.css'
+import "./PlaceOrder.css";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
