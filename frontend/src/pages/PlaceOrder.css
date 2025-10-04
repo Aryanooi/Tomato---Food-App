@@ -1,0 +1,19 @@
+.place-order {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+/* Mobile view: stack items vertically */
+@media (max-width: 768px) {
+  .place-order {
+    flex-direction: column;
+    gap: 30px; /* smaller gap for mobile */
+  }
+
+  .place-order-left,
+  .place-order-right {
+    max-width: 100% !important; /* full width on mobile */
+  }
+}

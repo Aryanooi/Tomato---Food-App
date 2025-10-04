@@ -1,0 +1,41 @@
+.side-option .active {
+    background-color: #fff0ed;
+    border-color: tomato;
+}
+/* Base styles for all sidebar navigation links */
+.side-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 10px;
+  cursor: pointer;
+  
+  /* Border styles */
+  border: 1px solid #a9a9a9;
+  border-right: 0;
+  border-radius: 4px 0 0 4px;
+
+  /* Removes default link underline and color */
+  text-decoration: none;
+  color: inherit;
+  
+  /* Adds a subtle transition for hover/active effects */
+  transition: background-color 0.2s; 
+}
+
+/* Style for when you hover over a link */
+.side-option:hover {
+  background-color: #f0f0f0; 
+}
+
+/* Style for the currently ACTIVE link */
+.side-option.active {
+  background-color: #fff0ed;
+  border-color: tomato;
+}
+@media (max-width: 900px) {
+  .side-option p {
+    display: none;
+  }
+    
+}
