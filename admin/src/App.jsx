@@ -8,7 +8,7 @@ import Order from './pages/Order'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const App = () => {
-  const URL="http://localhost:5000";
+  const URL="https://tomato-food-app-3jfb.onrender.com";
   return (
     <div>
       <ToastContainer position="top-right" autoClose={2000} />
